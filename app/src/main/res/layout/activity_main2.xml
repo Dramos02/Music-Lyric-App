@@ -29,6 +29,8 @@
                 android:id="@+id/txtSongTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:gravity="center"
                 android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
