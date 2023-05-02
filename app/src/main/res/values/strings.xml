@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LyricsApp_Dramos02</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="song_1">Bawat Pyesa by munimuni</string>
+    <string name="song_2">Tahanan by munimuni</string>
+    <string name="song_3">King of My Heart by Taylor Swift</string>
+    <string name="song_4">Grow Old with You by Adam Sadler</string>
+    <string name="song_5">Kiss of Death by Mika Nakashima</string>
+    <string name="btn_Return">RETURN</string>
+    <string name="btn_Play">Play</string>
+    <string name="btn_Pause">Pause</string>
+    <string name="btn_Stop">Stop</string>
+
+</resources>
