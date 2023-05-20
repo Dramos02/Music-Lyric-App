@@ -282,4 +282,5 @@ class MainActivity : AppCompatActivity() {
 }
 
 //CODED BY DOMINIC O. RAMOS 2BSIT-2
+//Copyrights © https://github.com/Dramos02
 
