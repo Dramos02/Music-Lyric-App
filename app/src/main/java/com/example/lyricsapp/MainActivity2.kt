@@ -52,3 +52,4 @@ class MainActivity2 : AppCompatActivity() {
         }
     }
 }
+//Copyrights © https://github.com/Dramos02
