@@ -45,6 +45,7 @@
         android:id="@+id/cardView3"
         android:layout_width="375dp"
         android:layout_height="450dp"
+        android:layout_margin="10dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +61,11 @@
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -93,13 +98,13 @@
         android:id="@+id/btnPlay"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="28dp"
         android:layout_marginBottom="64dp"
         android:text="@string/btn_Play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.187" />
 
     <Button
         android:id="@+id/btnPause"
@@ -121,10 +126,10 @@
         android:text="@string/btn_Stop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toEndOf="@+id/btnPause"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        app:layout_constraintVertical_bias="0.444" />
+        app:layout_constraintVertical_bias="0.187" />
 
     <Button
         android:id="@+id/btnReturn"
