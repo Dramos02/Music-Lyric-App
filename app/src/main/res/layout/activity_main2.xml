@@ -98,38 +98,46 @@
         android:id="@+id/btnPlay"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_marginStart="28dp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="5dp"
         android:layout_marginBottom="64dp"
         android:text="@string/btn_Play"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnPause"
         android:layout_width="100dp"
         android:layout_height="60dp"
-        android:layout_marginStart="28dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="60dp"
         android:text="@string/btn_Pause"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnPlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnStop"
         android:layout_width="100dp"
         android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="64dp"
         android:text="@string/btn_Stop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
-        app:layout_constraintStart_toEndOf="@+id/btnPause"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnReturn"
